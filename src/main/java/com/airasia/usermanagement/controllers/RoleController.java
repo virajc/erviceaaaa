@@ -72,7 +72,7 @@ public class RoleController {
 
 
 
-        // Create new user's account
+        // Create new role
         Role role = new Role(roleWithPermissionRequest.getRole());
 
         Set<String> strPermissions = roleWithPermissionRequest.getPermission();
