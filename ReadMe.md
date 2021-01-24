@@ -1,8 +1,5 @@
 # Auth Service Task for Air Asia
 ## User Sign Up, User Login, Role and Permission module.
-The diagram shows flow of how we implement User Registration, User Login and Authorization process.
-
-![Flow Diagram](Flow.png)
 
 The diagram shows the database design of the module.
 
