@@ -5,17 +5,17 @@ import org.hibernate.validator.constraints.NotBlank;
 
 public class LoginRequest {
     @NotBlank
-    private String username;
+    private String usernameoremail;
 
     @NotBlank
     private String password;
 
-    public String getUsername() {
-        return username;
+    public String getUsernameOrEmail() {
+        return usernameoremail;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUsernameOrEmail(String username) {
+        this.usernameoremail = username;
     }
 
     public String getPassword() {
