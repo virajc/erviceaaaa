@@ -53,13 +53,12 @@
 
     <build>
         <pluginManagement>
-        <plugin>
+                 <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
             <mainClass>com.airasia.usermanagement.SpringBootSecurityJwtApplication</mainClass>
         </configuration>
-
         <executions>
             <execution>
                 <goals>
@@ -67,9 +66,8 @@
                 </goals>
             </execution>
        </executions>
-
-</plugin>
-        </pluginManagement>
+       </plugin>
+       </pluginManagement>
     </build>
 
 
