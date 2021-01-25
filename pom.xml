@@ -46,24 +46,27 @@
         </dependency>
     </dependencies>
 
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		
+	</properties>
+
 
     <build>
         <pluginManagement>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-             <executions>
-            <execution>
-                <goals>
-                    <goal>repackage</goal>
-                </goals>
-            </execution>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.airasia.usermanagement.SpringBootSecurityJwtApplication</mainClass> 
+				</configuration>
+				<executions>
+            
        </executions>
-            </plugin>
+			</plugin>
         </plugins>
         </pluginManagement>
     </build>
